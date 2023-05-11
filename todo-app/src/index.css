@@ -1,0 +1,94 @@
+/* index.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    margin-top: 10px;
+  }
+  
+  /* Table styles */
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table th {
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .table td {
+    vertical-align: middle;
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    width: 400px;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal-footer {
+    padding: 20px;
+    text-align: right;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-link {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .page-link:hover {
+    background-color: #dee2e6;
+  }
+  
+  .page-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

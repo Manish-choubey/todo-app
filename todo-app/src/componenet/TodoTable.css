@@ -1,0 +1,50 @@
+/* src/components/TodoTable.css */
+
+.todo-table {
+    width: 100%;
+  }
+  
+  .todo-table input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .todo-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .todo-table table th,
+  .todo-table table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .todo-table ul.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .todo-table ul.pagination li {
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #ced4da;
+    margin-right: 0.25rem;
+  }
+  
+  .todo-table ul.pagination li:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .todo-table ul.pagination li.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
